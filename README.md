@@ -1,27 +1,31 @@
 # PilotSize
-PilotSize is a program designed to help researchers calculate sample sizes for pilot and feasibility trials. It serves as a companion application to the forthcoming article titled "Determining sample size for pilot and feasibility trials: A tutorial" in XX.
 
-### Test PilotSize on the Web
+**PilotSize** is a program developed to help researchers calculate sample sizes for pilot and feasibility trials. It is designed as a companion tool to the forthcoming article, *"Determining Sample Size for Pilot and Feasibility Trials: A Tutorial,"* in XX.
 
-A working version of the PilotSize application is available here. If this web version cannot be accessed, you can install and run the app locally on your computer by following the instructions below.
+### Execute Calculations Using Code
 
-### Run PilotSize in R
+To quickly perform calculations, you can download R or Stata code (provided in PDF format), copy the code, and paste it into the appropriate software to run.
 
-Before PilotSize will run on your computer, you will need to make sure you have R installed, and that you have installed the `shiny`, `pwr`, `presize`, and `statpsych` packages:
+### Run the App on the Web
+
+You can perform calculations via an RShiny app available [here]. If this web version is inaccessible, follow the instructions below to install and run the app locally on your computer.
+
+### Run the App on Your Computer
+
+To run the app locally, ensure you have R installed and the following R packages: `shiny`, `pwr`, `presize`, `statpsych`, and `lrstat`.
 
 ```r
-install.packages(c('shiny', 'pwr', 'presize', 'statpsych'))
-
+install.packages(c('shiny', 'pwr', 'presize', 'statpsych', 'lrstat'))
 ```
 
-The quickest way to run the app natively on your computer is to open R, load Shiny, and run from the GitHub repository. You must have the `devtools` package installed (`install.packages('devtools')`).
+Then, open R and run the app from the GitHub repository (you will need the `devtools` package, which you can install using `install.packages('devtools')`):
 
 ```r
 library(shiny)
 shiny::runGitHub(repo = "PilotSize", username = "xiying5")
 ```
 
-If you prefer to download the repository manually, you can download the ZIP file from GitHub, navigate to the folder containing the `app.R`, and run the app using:
+Alternatively, you can manually download the repository as a ZIP file from GitHub. After extracting, navigate to the folder containing `app.R` and run the app with:
 
 ```r
 library(shiny)
