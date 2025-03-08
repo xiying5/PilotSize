@@ -1,10 +1,10 @@
 # PilotSize
 
-**PilotSize** is a program developed to help researchers calculate sample sizes for pilot and feasibility trials. It is designed as a companion tool to the forthcoming article, *"Determining Sample Size for Pilot and Feasibility Trials: A Tutorial,"* in XX.
+**PilotSize** is a program developed to help researchers calculate sample sizes for pilot trials. It is designed as a companion tool to the forthcoming article, *"Determining Sample Size for Pilot Trials: A Tutorial,"* in XX.
 
 ### Execute Calculations Using Code
 
-To quickly perform calculations, you can download R or Stata code (provided in PDF format), copy the code, and paste it into the appropriate software to run.
+To quickly perform calculations, you can download R, Stata, or SAS code, copy the code, and paste it into the appropriate software to run.
 
 ### Run the App on the Web
 
