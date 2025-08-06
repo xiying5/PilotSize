@@ -1,6 +1,6 @@
 # PilotSize
 
-**PilotSize** is a program developed to help researchers calculate sample sizes for pilot trials. It is designed as a companion tool to the forthcoming article, *"Determining Sample Size for Pilot Trials: A Tutorial,"* in XX.
+**PilotSize** is a program developed to help researchers calculate sample sizes for pilot trials. It is designed as a companion tool to the article, *"Determining Sample Size for Pilot Trials: A Tutorial,"* (Ying X, et al. BMJ 2025;390:e083405. doi:10.1136/bmj-2024-083405).
 
 ### Execute Calculations Using Code
 
@@ -12,10 +12,10 @@ You can perform calculations via an RShiny app available [here]. If this web ver
 
 ### Run the App on Your Computer
 
-To run the app locally, ensure you have R installed and the following R packages: `shiny`, `pwr`, `presize`, `statpsych`, and `lrstat`.
+To run the app locally, ensure you have R installed and the following R packages: `shiny`, `pwr`, `presize`, `statpsych`, `lrstat`, `EnvStats`, and `MKpower`.
 
 ```r
-install.packages(c('shiny', 'pwr', 'presize', 'statpsych', 'lrstat'))
+install.packages(c('shiny', 'pwr', 'presize', 'statpsych', 'lrstat', 'EnvStats', and 'MKpower'))
 ```
 
 Then, open R and run the app from the GitHub repository (you will need the `devtools` package, which you can install using `install.packages('devtools')`):
