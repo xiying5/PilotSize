@@ -1,6 +1,6 @@
 # PilotSize
 
-**PilotSize** is a program developed to help researchers calculate sample sizes for pilot trials. It is designed as a companion tool to the article, *"Determining Sample Size for Pilot Trials: A Tutorial,"* (Ying X, et al. BMJ 2025;390:e083405. doi:10.1136/bmj-2024-083405).
+**PilotSize** is a program developed to help researchers calculate sample sizes for pilot trials. It is designed as a companion tool to the article, *"Determining Sample Size for Pilot Trials: A Tutorial"* (Ying X, et al. BMJ 2025;390:e083405. doi:10.1136/bmj-2024-083405).
 
 ### Execute Calculations Using Code
 
@@ -8,7 +8,7 @@ To quickly perform calculations, you can download R, Stata, or SAS code, copy th
 
 ### Run the App on the Web
 
-You can perform calculations via an RShiny app available [here]. If this web version is inaccessible, follow the instructions below to install and run the app locally on your computer.
+You can perform calculations via an RShiny app available [https://r-pilotsize.sph.unc.edu/PilotSize/]. If this web version is inaccessible, follow the instructions below to install and run the app locally on your computer.
 
 ### Run the App on Your Computer
 
