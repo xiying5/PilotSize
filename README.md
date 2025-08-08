@@ -8,7 +8,7 @@ To quickly perform calculations, you can download R, Stata, or SAS code, copy th
 
 ### Run the App on the Web
 
-You can perform calculations via an RShiny app available [https://r-pilotsize.sph.unc.edu/PilotSize/]. If this web version is inaccessible, follow the instructions below to install and run the app locally on your computer.
+You can perform calculations via an RShiny app [https://r-pilotsize.sph.unc.edu/PilotSize/]. If this web version is inaccessible, follow the instructions below to install and run the app locally on your computer.
 
 ### Run the App on Your Computer
 
